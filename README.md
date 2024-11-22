@@ -273,7 +273,7 @@ and rating  = (select max(rating) from netflix) ;
 ```
 
 **Objective:** assumption of highest rating ur getting released year and the movie name  
-### 17. which movie has logest duration in the whole content
+### 17. Which movie has logest duration in the whole content
 
 ```sql
 -- first find max duration 
@@ -291,7 +291,7 @@ where duration = '312 min';
 
 **Objective:** Find the movie with the longest duration.
 
-### 18. how many movies/TV Shows released between 2010 to 2021rds
+### 18. How many movies/TV Shows released between 2010 to 2021rds
 
 ```sql
 select count(*) as total_movies
